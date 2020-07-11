@@ -1,0 +1,41 @@
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    background-color: #562EFF;
+}
+
+hr {
+    background-color: #D1D1D1;
+}
+
+h3 {
+    font-size: 24px;
+    color: #562EFF;
+}
+.card-body {
+    font-family: 'Roboto', sans-serif;
+}
+.card-body p{
+    color: #ED6B4F;
+    font-size: 14.69;   
+}
+
+.card-footer {
+    border: none;
+    background-color: white;
+    color: #ED6B4F ;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: .5rem;
+}
+
+.checked {
+    color: orange;
+  }
+
